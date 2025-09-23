@@ -1,0 +1,14 @@
+#esb-search { max-width: 700px; margin: 20px auto; font-family: Arial, sans-serif; }
+#esb-search input { width: 60%; padding: 8px; font-size: 14px; }
+#esb-voice { padding: 8px; cursor: pointer; }
+#esb-filters { margin-top: 10px; display: flex; gap: 10px; }
+#esb-results ul { list-style: none; padding: 0; }
+#esb-results li { padding: 10px 0; border-bottom: 1px solid #eee; }
+#esb-results a { font-weight: bold; color: #0073aa; text-decoration: none; }
+#esb-results a:hover { text-decoration: underline; }
+
+/* Responsive */
+@media(max-width: 767px){
+    #esb-search input { width: 100%; margin-bottom: 5px; }
+    #esb-filters { flex-direction: column; }
+}

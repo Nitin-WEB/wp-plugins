@@ -1,0 +1,39 @@
+#ltt-tracker {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+#ltt-tracker form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#ltt-tracker select,
+#ltt-tracker input {
+    padding: 8px;
+    font-size: 14px;
+    flex: 1 1 45%;
+}
+#ltt-tracker button {
+    padding: 10px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1 1 100%;
+}
+#ltt-tracker button:hover { background: #005177; }
+#ltt-result { margin-top: 15px; overflow-x: auto; }
+
+/* Table styling */
+.ltt-table { width: 100%; border-collapse: collapse; }
+.ltt-table th, .ltt-table td { border: 1px solid #ddd; padding: 8px; }
+.ltt-table th { background: #0073aa; color: #fff; text-align: left; }
+.ltt-table tr:nth-child(even) { background: #f2f2f2; }
+
+/* Responsive */
+@media (max-width: 767px) {
+    #ltt-tracker select, #ltt-tracker input { flex: 1 1 100%; }
+    .ltt-table th, .ltt-table td { font-size: 12px; padding: 6px; }
+}

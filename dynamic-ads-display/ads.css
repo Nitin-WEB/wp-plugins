@@ -1,0 +1,28 @@
+.dad-ad {
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.dad-ad a {
+  color: #0073aa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dad-ad a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .dad-ad { font-size: 14px; padding: 12px; }
+}
+
+@media (max-width: 767px) {
+  .dad-ad { font-size: 13px; padding: 10px; }
+}
